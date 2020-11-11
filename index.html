@@ -5,23 +5,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="https://fonts.googleapis.com/css?family=Lato:700&display=swap" rel="stylesheet" />
     <title>Buscador Series</title>
-    <link rel="stylesheet" href="./styles/style.css" />
+    <link rel="stylesheet" href="./style.css" />
   </head>
   <body class="body__container">
-    <h1 class="header__style">Buscador de series</h1>
+    <h1 class="header__style">Pulsa sobre el botón para saber tu futuro</h1>
+    
     <main class="main__container">
-      <section class="favorites__section">
-        <form>
-          <input type="text" class="js-input-name input_style" value="" placeholder="Serie" />
-          <button class="js-btn-search search__button">Buscar</button>
-          <button class="js-btn-log search__button">Log</button>
-        </form>
-        <ul class="js-favorites-elements favorites__ul"></ul>
-      </section>
-      <section class="series__section">
-        <ul class="js-series-elements series__ul"></ul>
-      </section>
+      <button class="btn__modal">Atrévete</button>
+      <div class="modal__container">
+
+        <div class="modal__content">
+          <span class ="modal__close">X</span>
+          <h3>Aquí estoy</h3>
+          <p>Se abre un mundo lleno de experiencias ante ti, por favor sigue programando que algo bueno crearás</p>
+        </div>
+      </div>
+
     </main>
-    <script src="./js/main.js"></script>
+    <script src="./main.js"></script>
   </body>
 </html>
