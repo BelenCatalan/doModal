@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://fonts.googleapis.com/css?family=Lato:700&display=swap" rel="stylesheet" />
+    <title>Buscador Series</title>
+    <link rel="stylesheet" href="./styles/style.css" />
+  </head>
+  <body class="body__container">
+    <h1 class="header__style">Buscador de series</h1>
+    <main class="main__container">
+      <section class="favorites__section">
+        <form>
+          <input type="text" class="js-input-name input_style" value="" placeholder="Serie" />
+          <button class="js-btn-search search__button">Buscar</button>
+          <button class="js-btn-log search__button">Log</button>
+        </form>
+        <ul class="js-favorites-elements favorites__ul"></ul>
+      </section>
+      <section class="series__section">
+        <ul class="js-series-elements series__ul"></ul>
+      </section>
+    </main>
+    <script src="./js/main.js"></script>
+  </body>
+</html>
